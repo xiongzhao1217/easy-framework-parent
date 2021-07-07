@@ -39,6 +39,7 @@
 
 
 		<!-- easy框架版本 -->
+		<easy-core.version>1.0.0-SNAPSHOT</easy-core.version>
 
 
 		<!-- 工具库依赖包版本 -->
@@ -110,7 +111,18 @@
 
 
 			<!-- easy框架 begin -->
-
+			<!-- easy框架核心包 -->
+			<dependency>
+				<groupId>com.easy.framework</groupId>
+				<artifactId>easy-core</artifactId>
+				<version>${easy-core.version}</version>
+			</dependency>
+			<!-- easy框架excel工具包 -->
+			<dependency>
+				<groupId>com.easy.framework</groupId>
+				<artifactId>easy-excel</artifactId>
+				<version>${easy-core.version}</version>
+			</dependency>
 			<!-- easy框架 end -->
 
 
