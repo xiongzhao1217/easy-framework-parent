@@ -9,10 +9,10 @@ easy框架父pom，在spring-boot-dependencies基础上，增加常用util、三
 * 模板引擎推荐使用 `freemarker`，`velocity` 官方近10年没有维护，新版 `spring` 也放弃了对其的兼容。
 * 工具类库推荐使用 `apache commons` 包，集合校验推荐使用 `apache commons-collections4` 包，集合创建推荐使用 `google guava` 包，其他推荐使用 `hutool`工具库。
 
-# 基础脚手架(archetype)
-[springboot脚手架]()
-
 # 快速开始
+## 脚手架一键生成方式
+[见文档](https://github.com/xiongzhao1217/easy-framework-archetype)
+
 ## 继承方式
 通过继承`easy-framework-parent` 来引用父 `pom` 中的包。
 ```xml
